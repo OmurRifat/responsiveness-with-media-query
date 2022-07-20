@@ -1,0 +1,52 @@
+/* importing font  */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 1200px;
+    margin: 50px auto 0px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: rgb(17, 17, 17);
+    padding: 30px 80px 0 80px;
+    border-radius: 20px;
+}
+
+.header-section div h1 {
+    color: white;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.header-section div p {
+    color: white;
+    font-weight: 200px;
+    font-size: 12px;
+}
+
+.header-section div img {
+    margin-left: 40px;
+    width: 550px;
+    height: 600px;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #FF2F9E;
+    border-radius: 5px;
+    color: white;
+}
+
+.button:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+}
